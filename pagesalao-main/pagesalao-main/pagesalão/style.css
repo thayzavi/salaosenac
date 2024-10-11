@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.custom-hr {
+    border: none;              
+    height: 30px;              
+    background-color: #2d6191; 
+    margin: 0;                 
+  }
+a:hover{
+    color: #ff730062;
+    transform: scale(1.05);
+}
+
+/* Header */
+.header {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: auto;
+   
+}
+.header img{
+    height: 80px;
+     display: block;
+     margin: 0 auto;
+      width: 0px;
+
+}
+
+.header h1 {
+    font-size: 45px;
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    color: #FF8801;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+    background-color: #ffffff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    color: rgb(255, 174, 0);
+    text-decoration: none;
+    margin: 0 50px;
+    font-weight: bold;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d6191;
+    padding: 60px;
+}
+
+.hero img {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #fc8b0b;
+    margin-top: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #333;
+}
+
+.hero-content a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f08000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 32px;
+    color: #5c246e;
+    margin-bottom: 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.service-item {
+    width: 190px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.service-item:hover {
+    background-color: #f0e6ff; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(250, 156, 102, 0.2); /* Adiciona uma sombra */
+    cursor: pointer;
+}
+
+.service-item img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.service-item h4 {
+    font-size: 20px;
+    color: #f08000;
+}
+
+.service-item p {
+    color: #666;
+}
+/* portifolio */
+.portfolio-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolio-images img {
+    width: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.portfolio-images img:hover {
+    transform: scale(1.05);
+}
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2d6191;
+    color: white;
+}
